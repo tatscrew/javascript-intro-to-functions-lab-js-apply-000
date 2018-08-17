@@ -51,7 +51,7 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-function say(HiToGrandma) {
+function shout(HiToGrandma) {
   console.log (whisper)
   return HiToGrandma
   
