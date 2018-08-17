@@ -6,7 +6,7 @@ describe('shout(string)', function () {
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toEqual('hello')
+    expect(whisper('sayHiToGrandma')).toEqual('sayHiToGrandma')
   })
 })
 
@@ -47,11 +47,10 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
-function whisper(string) {
+function shout(string) {
   return string.toUpperCase()
 }
 
-function shout(HiToGrandma) {
-  console.log (whisper)
+function whisper(string) {
   return string.toLowerCase()
 }
