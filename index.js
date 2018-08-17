@@ -53,6 +53,5 @@ function shout(string) {
 
 function shout(HiToGrandma) {
   console.log (whisper)
-  return HiToGrandma
-  
+  return string.toLowerCase()
 }
